@@ -9,7 +9,10 @@ Ruby and rubygems already installed:
 
 # Development
 
-To start a local server: `jekyll serve`
+```
+npm run build:webpack
+jekyll serve
+```
 
 # Deploying
 
