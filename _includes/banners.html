@@ -1,5 +1,7 @@
 <div class="banner-container">
     {% for banner in site.banners %}
-    {{banner.output}}
+      {% unless banner.hide %}
+        {{banner.output}}
+      {% endunless %}
     {% endfor %}
 </div>
