@@ -26,7 +26,8 @@ defaults:
     values:
       image: true
   - scope:
-      path: banners
+      path: ""
+      type: banners
     values:
       layout: banner
 
